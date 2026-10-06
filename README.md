@@ -65,9 +65,4 @@ python train_classifier.py
 
 Python, scikit-learn (TF-IDF, Multinomial Naive Bayes, Logistic Regression, Linear SVM), pandas, matplotlib.
 
-## Team
-
-| Role | Name |
-|---|---|
-| Group Leader | Shahid Mumtaz |
-| Contributor | Sana Ullah |
+# Sana Ullah |
