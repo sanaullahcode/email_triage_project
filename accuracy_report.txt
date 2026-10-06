@@ -1,0 +1,37 @@
+EMAIL TRIAGE CLASSIFIER - ACCURACY REPORT
+=======================================================
+
+Project: Email Triage Classifier Prototype (Spam / Lead / Support)
+Prepared by: Sana Ullah
+Group Leader: Shahid Mumtaz
+
+Dataset size: 36 labeled emails
+Class distribution: {'support': 15, 'lead': 11, 'spam': 10}
+Train / Test split: 27 / 9 (stratified, 75/25)
+
+Cross-validation results (4-fold, on training data):
+  - Naive Bayes            mean accuracy: 0.815 (+/- 0.155)
+  - Logistic Regression    mean accuracy: 0.554 (+/- 0.106)
+  - Linear SVM             mean accuracy: 0.815 (+/- 0.155)
+
+Selected model: Naive Bayes
+
+Held-out test set performance:
+  - Accuracy: 1.000
+  - Macro F1: 1.000
+
+Classification report:
+              precision    recall  f1-score   support
+
+        lead      1.000     1.000     1.000         3
+        spam      1.000     1.000     1.000         2
+     support      1.000     1.000     1.000         4
+
+    accuracy                          1.000         9
+   macro avg      1.000     1.000     1.000         9
+weighted avg      1.000     1.000     1.000         9
+
+Sample predictions on unseen emails:
+  [spam] Claim your free lottery winnings now by clicking this link
+  [lead] We would like to book a demo call to evaluate your platform for our team of 30
+  [support] My invoice this month is wrong please help me fix the billing
